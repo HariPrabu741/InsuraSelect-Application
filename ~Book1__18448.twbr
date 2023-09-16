@@ -1,0 +1,1092 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.22.1005.1835                               -->
+<workbook original-version='18.1' source-build='2022.3.0 (20223.22.1005.1835)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <Heatmap />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Form Responses 1 (InsuraSelect Feedback (Responses))' inline='true' name='federated.1t67koc0b5iej41e1yjy00ngl3go' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='InsuraSelect Feedback (Responses)' name='cloudfile:googledrive-excel-direct.177st591and3sw17ieg7x09cb0ba'>
+            <connection class='cloudfile:googledrive-excel-direct' cleaning='no' cloudFileExtension='xlsx' cloudFileId='1HX2TVB85vU-NDXXQWXyWz4nPAQ04aqzjw2sHtbz8urg' cloudFileMetadata_-_folder='root' cloudFileName='InsuraSelect Feedback (Responses).xlsx' cloudFileProvider='googledrive' cloudFileRequestURL='https://www.googleapis.com/drive/v3/files/1HX2TVB85vU-NDXXQWXyWz4nPAQ04aqzjw2sHtbz8urg/export?mimeType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' compat='no' dataRefreshTime='' filename='InsuraSelect Feedback (Responses).xlsx' interpretationMode='0' server='' server-oauth='' username='hariprabu@thesmartbridge.com' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='cloudfile:googledrive-excel-direct.177st591and3sw17ieg7x09cb0ba' name='Form Responses 1' table='[&apos;Form Responses 1$&apos;]' type='table'>
+          <columns gridOrigin='A1:I33:no:A1:I33:0' header='yes' outcome='2'>
+            <column datatype='integer' name='S.no' ordinal='0' />
+            <column datatype='datetime' name='Timestamp' ordinal='1' />
+            <column datatype='integer' name='Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?' ordinal='2' />
+            <column datatype='string' name='Did the chatbot effectively address your insurance-related questions and concerns?' ordinal='3' />
+            <column datatype='integer' name='How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?' ordinal='4' />
+            <column datatype='string' name='Did you encounter any difficulties while using the chatbot or the price prediction feature?' ordinal='5' />
+            <column datatype='string' name='What aspects of the application do you think stand out positively, and which areas do you believe need improvement?' ordinal='6' />
+            <column datatype='integer' name='On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins' ordinal='7' />
+            <column datatype='string' name='Email Address' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='cloudfile:googledrive-excel-direct.177st591and3sw17ieg7x09cb0ba' name='Form Responses 1' table='[&apos;Form Responses 1$&apos;]' type='table'>
+          <columns gridOrigin='A1:I33:no:A1:I33:0' header='yes' outcome='2'>
+            <column datatype='integer' name='S.no' ordinal='0' />
+            <column datatype='datetime' name='Timestamp' ordinal='1' />
+            <column datatype='integer' name='Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?' ordinal='2' />
+            <column datatype='string' name='Did the chatbot effectively address your insurance-related questions and concerns?' ordinal='3' />
+            <column datatype='integer' name='How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?' ordinal='4' />
+            <column datatype='string' name='Did you encounter any difficulties while using the chatbot or the price prediction feature?' ordinal='5' />
+            <column datatype='string' name='What aspects of the application do you think stand out positively, and which areas do you believe need improvement?' ordinal='6' />
+            <column datatype='integer' name='On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins' ordinal='7' />
+            <column datatype='string' name='Email Address' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:I33:no:A1:I33:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S.no</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[S.no]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>S.no</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Form Responses 1_C362D14FEAD1472989F7C485F4BF1EEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Timestamp</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Timestamp]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Timestamp</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Form Responses 1_C362D14FEAD1472989F7C485F4BF1EEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Form Responses 1_C362D14FEAD1472989F7C485F4BF1EEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Did the chatbot effectively address your insurance-related questions and concerns?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Did the chatbot effectively address your insurance-related questions and concerns?]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Did the chatbot effectively address your insurance-related questions and concerns?</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Form Responses 1_C362D14FEAD1472989F7C485F4BF1EEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Form Responses 1_C362D14FEAD1472989F7C485F4BF1EEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Did you encounter any difficulties while using the chatbot or the price prediction feature?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Did you encounter any difficulties while using the chatbot or the price prediction feature?]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Did you encounter any difficulties while using the chatbot or the price prediction feature?</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Form Responses 1_C362D14FEAD1472989F7C485F4BF1EEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What aspects of the application do you think stand out positively, and which areas do you believe need improvement?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[What aspects of the application do you think stand out positively, and which areas do you believe need improvement?]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>What aspects of the application do you think stand out positively, and which areas do you believe need improvement?</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Form Responses 1_C362D14FEAD1472989F7C485F4BF1EEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Form Responses 1_C362D14FEAD1472989F7C485F4BF1EEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Email Address</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Email Address]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Email Address</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Form Responses 1_C362D14FEAD1472989F7C485F4BF1EEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Chatbot service (Satisfied or not)' datatype='string' name='[Did the chatbot effectively address your insurance-related questions and concerns?]' role='dimension' type='nominal' />
+      <column caption='Interface ratings' datatype='integer' name='[Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?]' role='measure' type='quantitative' />
+      <column caption='Services issues' datatype='string' name='[Did you encounter any difficulties while using the chatbot or the price prediction feature?]' role='dimension' type='nominal' />
+      <column caption='Value of ML model' datatype='integer' name='[How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?]' role='measure' type='quantitative' />
+      <column caption='Overall ratings' datatype='integer' name='[On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins]' role='measure' type='quantitative' />
+      <column aggregation='None' datatype='integer' name='[Overall ratings (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='-1' formula='[On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins]' peg='0' size='0.998' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Form Responses 1' datatype='table' name='[__tableau_internal_object_id__].[Form Responses 1_C362D14FEAD1472989F7C485F4BF1EEF]' role='measure' type='quantitative' />
+      <column-instance column='[Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?]' derivation='Avg' name='[avg:Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?]' derivation='Avg' name='[avg:How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Did the chatbot effectively address your insurance-related questions and concerns?]' derivation='None' name='[none:Did the chatbot effectively address your insurance-related questions and concerns?:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Did you encounter any difficulties while using the chatbot or the price prediction feature?]' derivation='None' name='[none:Did you encounter any difficulties while using the chatbot or the price prediction feature?:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Overall ratings (bin)]' derivation='None' name='[none:Overall ratings (bin):ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?]' derivation='Sum' name='[sum:Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?:qk]' pivot='key' type='quantitative' />
+      <group caption='Action (Chatbot service (Satisfied or not))' hidden='true' name='[Action (Chatbot service (Satisfied or not))]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Did the chatbot effectively address your insurance-related questions and concerns?]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Services issues)' hidden='true' name='[Action (Services issues)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Did you encounter any difficulties while using the chatbot or the price prediction feature?]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Overall ratings (bin):ok]' palette='traffic_light_10_0' type='palette'>
+            <map to='#309143'>
+              <bucket>7</bucket>
+            </map>
+            <map to='#51b364'>
+              <bucket>10</bucket>
+            </map>
+            <map to='#b60a1c'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#e03531'>
+              <bucket>8</bucket>
+            </map>
+            <map to='#e39802'>
+              <bucket>6</bucket>
+            </map>
+            <map to='#f0bd27'>
+              <bucket>9</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Did the chatbot effectively address your insurance-related questions and concerns?:nk]' palette='green_gold_10_0' type='palette'>
+            <map to='#a3bd5a'>
+              <bucket>&quot;Yes&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>&quot;No&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1t67koc0b5iej41e1yjy00ngl3go].[sum:Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Did you encounter any difficulties while using the chatbot or the price prediction feature?:nk]' palette='traffic_light_10_0' type='palette'>
+            <map to='#8ace7e'>
+              <bucket>&quot;yes&quot;</bucket>
+            </map>
+            <map to='#f0bd27'>
+              <bucket>&quot;No&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Form Responses 1' id='Form Responses 1_C362D14FEAD1472989F7C485F4BF1EEF'>
+            <properties context=''>
+              <relation connection='cloudfile:googledrive-excel-direct.177st591and3sw17ieg7x09cb0ba' name='Form Responses 1' table='[&apos;Form Responses 1$&apos;]' type='table'>
+                <columns gridOrigin='A1:I33:no:A1:I33:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='S.no' ordinal='0' />
+                  <column datatype='datetime' name='Timestamp' ordinal='1' />
+                  <column datatype='integer' name='Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?' ordinal='2' />
+                  <column datatype='string' name='Did the chatbot effectively address your insurance-related questions and concerns?' ordinal='3' />
+                  <column datatype='integer' name='How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?' ordinal='4' />
+                  <column datatype='string' name='Did you encounter any difficulties while using the chatbot or the price prediction feature?' ordinal='5' />
+                  <column datatype='string' name='What aspects of the application do you think stand out positively, and which areas do you believe need improvement?' ordinal='6' />
+                  <column datatype='integer' name='On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins' ordinal='7' />
+                  <column datatype='string' name='Email Address' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_355C358586664EA184FAB50D6C9EC044]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Sheet 2' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action2_12557C6ED4D84CF38EAD978A8D2305BE]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Sheet 1' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 3 (generated)' name='[Action3_2649508C723B4756902FC5CF8C560BBE]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Sheet 4' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 4 (generated)' name='[Action4_0F90846A58874F9E85840DD4EDD31831]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Sheet 3' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='12'>Count of ratings from customers</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Form Responses 1 (InsuraSelect Feedback (Responses))' name='federated.1t67koc0b5iej41e1yjy00ngl3go' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t67koc0b5iej41e1yjy00ngl3go'>
+            <column caption='Chatbot service (Satisfied or not)' datatype='string' name='[Did the chatbot effectively address your insurance-related questions and concerns?]' role='dimension' type='nominal' />
+            <column caption='Services issues' datatype='string' name='[Did you encounter any difficulties while using the chatbot or the price prediction feature?]' role='dimension' type='nominal' />
+            <column caption='Overall ratings' datatype='integer' name='[On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins]' role='measure' type='quantitative' />
+            <column aggregation='None' datatype='integer' name='[Overall ratings (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='-1' formula='[On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins]' peg='0' size='0.998' />
+            </column>
+            <column-instance column='[On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins]' derivation='Count' name='[cnt:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Overall ratings (bin)]' derivation='None' name='[none:Overall ratings (bin):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Overall ratings (bin)]' derivation='None' name='[none:Overall ratings (bin):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[Action (Chatbot service (Satisfied or not))]'>
+            <groupfilter function='level-members' level='[Did the chatbot effectively address your insurance-related questions and concerns?]' user:ui-action-filter='[Action1_355C358586664EA184FAB50D6C9EC044]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[Action (Services issues)]'>
+            <groupfilter function='level-members' level='[Did you encounter any difficulties while using the chatbot or the price prediction feature?]' user:ui-action-filter='[Action3_2649508C723B4756902FC5CF8C560BBE]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <computed-sort column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Overall ratings (bin):ok]' direction='DESC' using='[federated.1t67koc0b5iej41e1yjy00ngl3go].[cnt:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]' />
+          <slices>
+            <column>[federated.1t67koc0b5iej41e1yjy00ngl3go].[Action (Chatbot service (Satisfied or not))]</column>
+            <column>[federated.1t67koc0b5iej41e1yjy00ngl3go].[Action (Services issues)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.1t67koc0b5iej41e1yjy00ngl3go].[cnt:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]' scope='rows' value='false' />
+            <encoding attr='space' class='1' field='[federated.1t67koc0b5iej41e1yjy00ngl3go].[cnt:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='display' class='1' field='[federated.1t67koc0b5iej41e1yjy00ngl3go].[cnt:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='font-weight' data-class='subtotal' scope='cols' value='bold' />
+            <format attr='font-weight' field='[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Overall ratings (bin):ok]' value='normal' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' scope='rows' value='#000000' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Overall ratings (bin):qk]' palette='green_gold_10_0' symmetric='false' type='interpolated' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#e6e6e6' />
+            <format attr='band-level' scope='rows' value='0' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='line-pattern-only' value='dashed' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Overall ratings (bin):&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Overall ratings (bin):ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Count of Overall ratings:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1t67koc0b5iej41e1yjy00ngl3go].[cnt:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1t67koc0b5iej41e1yjy00ngl3go].[cnt:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Overall ratings (bin):qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Overall ratings (bin):&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Overall ratings (bin):ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Count of Overall ratings:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1t67koc0b5iej41e1yjy00ngl3go].[cnt:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1t67koc0b5iej41e1yjy00ngl3go].[cnt:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Overall ratings (bin):&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Overall ratings (bin):ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Count of Overall ratings:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1t67koc0b5iej41e1yjy00ngl3go].[cnt:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <encoding attr='density-color' palette='tableau-map-temperatur' type='interpolated' />
+                <format attr='size' value='0.5487293004989624' />
+                <format attr='mark-color' value='#b6992d' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1t67koc0b5iej41e1yjy00ngl3go].[cnt:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk] + [federated.1t67koc0b5iej41e1yjy00ngl3go].[cnt:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk])</rows>
+        <cols>[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Overall ratings (bin):ok]</cols>
+      </table>
+      <simple-id uuid='{6457F742-CC82-410E-8BB0-DABB73E20777}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='12'>Customer satisfaction on ChatBot with Overall rating (Avg)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Form Responses 1 (InsuraSelect Feedback (Responses))' name='federated.1t67koc0b5iej41e1yjy00ngl3go' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t67koc0b5iej41e1yjy00ngl3go'>
+            <column caption='AVG(0)' datatype='real' name='[Calculation_1122522207813296129]' role='measure' type='quantitative' user:unnamed='Sheet 2'>
+              <calculation class='tableau' formula='AVG(0)' />
+            </column>
+            <column caption='Chatbot service (Satisfied or not)' datatype='string' name='[Did the chatbot effectively address your insurance-related questions and concerns?]' role='dimension' type='nominal' />
+            <column caption='Services issues' datatype='string' name='[Did you encounter any difficulties while using the chatbot or the price prediction feature?]' role='dimension' type='nominal' />
+            <column caption='Overall ratings' datatype='integer' name='[On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins]' role='measure' type='quantitative' />
+            <column-instance column='[On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins]' derivation='Avg' name='[avg:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Did the chatbot effectively address your insurance-related questions and concerns?]' derivation='None' name='[none:Did the chatbot effectively address your insurance-related questions and concerns?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins]' derivation='Sum' name='[sum:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1122522207813296129]' derivation='User' name='[usr:Calculation_1122522207813296129:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[Action (Services issues)]'>
+            <groupfilter function='level-members' level='[Did you encounter any difficulties while using the chatbot or the price prediction feature?]' user:ui-action-filter='[Action3_2649508C723B4756902FC5CF8C560BBE]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1t67koc0b5iej41e1yjy00ngl3go].[Action (Services issues)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207813296129:qk]' field-type='quantitative' fold='true' max='0.0' min='0.0' range-type='fixed' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207813296129:qk]' scope='rows' value='false' />
+            <format attr='display' class='1' field='[federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207813296129:qk]' scope='rows' value='false' />
+            <encoding attr='space' class='0' field='[federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207813296129:qk]' field-type='quantitative' max='0.0' min='0.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#e6e6e6' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <dropline drop-when='selected' haslabel='false' x-axis='false' y-axis='true' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Chatbot service (Satisfied or not):	</run>
+                <run bold='true'><![CDATA[<[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Did the chatbot effectively address your insurance-related questions and concerns?:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Avg. Overall ratings:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207813296129:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Did the chatbot effectively address your insurance-related questions and concerns?:nk]' />
+              <wedge-size column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[sum:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]' />
+              <size column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]' />
+              <text column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Did the chatbot effectively address your insurance-related questions and concerns?:nk]' />
+            </encodings>
+            <dropline drop-when='selected' haslabel='false' x-axis='false' y-axis='true' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Chatbot service (Satisfied or not):	</run>
+                <run bold='true'><![CDATA[<[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Did the chatbot effectively address your insurance-related questions and concerns?:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Avg. Overall ratings:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='3.0386741161346436' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207813296129:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Chatbot service (Satisfied or not):	</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Avg. Overall ratings:&#9;</run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='2' />
+                <format attr='mark-color' value='#e6e6e6' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207813296129:qk] + [federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207813296129:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{845CB122-FBF4-4D86-9673-541C4491389C}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='12'>Chatbot service satisfaction vs Avg of ML model rating vs Avg of interface rating</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Form Responses 1 (InsuraSelect Feedback (Responses))' name='federated.1t67koc0b5iej41e1yjy00ngl3go' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t67koc0b5iej41e1yjy00ngl3go'>
+            <column caption='Chatbot service (Satisfied or not)' datatype='string' name='[Did the chatbot effectively address your insurance-related questions and concerns?]' role='dimension' type='nominal' />
+            <column caption='Interface ratings' datatype='integer' name='[Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?]' role='measure' type='quantitative' />
+            <column caption='Services issues' datatype='string' name='[Did you encounter any difficulties while using the chatbot or the price prediction feature?]' role='dimension' type='nominal' />
+            <column caption='Value of ML model' datatype='integer' name='[How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?]' role='measure' type='quantitative' />
+            <column-instance column='[Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?]' derivation='Avg' name='[avg:Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?]' derivation='Avg' name='[avg:How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Did the chatbot effectively address your insurance-related questions and concerns?]' derivation='None' name='[none:Did the chatbot effectively address your insurance-related questions and concerns?:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[Action (Chatbot service (Satisfied or not))]'>
+            <groupfilter function='level-members' level='[Did the chatbot effectively address your insurance-related questions and concerns?]' user:ui-action-filter='[Action1_355C358586664EA184FAB50D6C9EC044]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[Action (Services issues)]'>
+            <groupfilter function='level-members' level='[Did you encounter any difficulties while using the chatbot or the price prediction feature?]' user:ui-action-filter='[Action3_2649508C723B4756902FC5CF8C560BBE]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1t67koc0b5iej41e1yjy00ngl3go].[Action (Chatbot service (Satisfied or not))]</column>
+            <column>[federated.1t67koc0b5iej41e1yjy00ngl3go].[Action (Services issues)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' scope='rows' value='#ffffff' />
+            <format attr='background-color' field='[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?:qk]' value='#e6e6e6' />
+            <format attr='background-color' field='[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?:qk]' value='#e6e6e6' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='background-color' data-class='total' scope='cols' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#e6e6e6' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.46077346801757812' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?:qk] + [federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?:qk])</rows>
+        <cols>[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Did the chatbot effectively address your insurance-related questions and concerns?:nk]</cols>
+      </table>
+      <simple-id uuid='{0E652F04-73F1-491A-94BC-B013D9F10785}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='12'>Service issues by customers based on Avg of overall rating</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Form Responses 1 (InsuraSelect Feedback (Responses))' name='federated.1t67koc0b5iej41e1yjy00ngl3go' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t67koc0b5iej41e1yjy00ngl3go'>
+            <column caption='AVG(0)' datatype='real' name='[Calculation_1122522207821844483]' role='measure' type='quantitative' user:unnamed='Sheet 4'>
+              <calculation class='tableau' formula='AVG(0)' />
+            </column>
+            <column caption='Chatbot service (Satisfied or not)' datatype='string' name='[Did the chatbot effectively address your insurance-related questions and concerns?]' role='dimension' type='nominal' />
+            <column caption='Services issues' datatype='string' name='[Did you encounter any difficulties while using the chatbot or the price prediction feature?]' role='dimension' type='nominal' />
+            <column caption='Overall ratings' datatype='integer' name='[On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins]' role='measure' type='quantitative' />
+            <column-instance column='[On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins]' derivation='Avg' name='[avg:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Did you encounter any difficulties while using the chatbot or the price prediction feature?]' derivation='None' name='[none:Did you encounter any difficulties while using the chatbot or the price prediction feature?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1122522207821844483]' derivation='User' name='[usr:Calculation_1122522207821844483:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[Action (Chatbot service (Satisfied or not))]'>
+            <groupfilter function='level-members' level='[Did the chatbot effectively address your insurance-related questions and concerns?]' user:ui-action-filter='[Action1_355C358586664EA184FAB50D6C9EC044]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1t67koc0b5iej41e1yjy00ngl3go].[Action (Chatbot service (Satisfied or not))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207821844483:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207821844483:qk]' scope='rows' value='false' />
+            <format attr='display' class='1' field='[federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207821844483:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#e6e6e6' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Services issues:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Did you encounter any difficulties while using the chatbot or the price prediction feature?:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Avg. Overall ratings:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='has-stroke' value='true' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207821844483:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Did you encounter any difficulties while using the chatbot or the price prediction feature?:nk]' />
+              <wedge-size column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]' />
+              <size column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]' />
+              <text column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Did you encounter any difficulties while using the chatbot or the price prediction feature?:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Services issues:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Did you encounter any difficulties while using the chatbot or the price prediction feature?:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Avg. Overall ratings:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='3.6132595539093018' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='has-stroke' value='true' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207821844483:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Services issues:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Did you encounter any difficulties while using the chatbot or the price prediction feature?:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Avg. Overall ratings:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2.3756906986236572' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#e6e6e6' />
+                <format attr='has-stroke' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207821844483:qk] + [federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207821844483:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{478B3275-2667-4CF3-9F47-676E43E9F722}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#d4d4d4' />
+        </style-rule>
+      </style>
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='98400' x='800' y='1000'>
+              <zone h='49000' id='3' name='Sheet 1' w='49200' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='9' name='Sheet 2' w='49200' x='50000' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='12' name='Sheet 3' w='49200' x='800' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='14' name='Sheet 4' w='49200' x='50000' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{034E9413-6C49-48DC-A907-6038A5789BA3}' />
+    </dashboard>
+    <dashboard name='Story 1' type='storyboard'>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='5187' id='3' type-v2='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='6017' />
+            <zone h='82676' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='16494'>
+              <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point captured-sheet='' id='1' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{C2604AD0-BA59-4C03-8EB0-FF7EE82264B8}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='44'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Overall ratings (bin):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{0D30DC01-42DA-493E-9D39-C03AE9065975}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Did the chatbot effectively address your insurance-related questions and concerns?:nk]' type='color' />
+            <card pane-specification-id='1' param='[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{2F45FF12-08D9-4108-8220-B4A35120DB76}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1t67koc0b5iej41e1yjy00ngl3go].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{FA689683-7B36-4732-8D5C-5F6F9D40145A}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Did you encounter any difficulties while using the chatbot or the price prediction feature?:nk]' type='color' />
+            <card pane-specification-id='1' param='[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{41CEEDCB-6709-41C5-B73C-B7013E27605A}' />
+    </window>
+    <window class='dashboard' name='Story 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{F1D17A10-095B-427A-9F2F-E20C3C5E6073}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 3'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 4'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{D9FCA339-50A1-41F9-BF9E-D926BFEABD57}' />
+    </window>
+  </windows>
+</workbook>

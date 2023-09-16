@@ -1,0 +1,1091 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.22.1005.1835                               -->
+<workbook original-version='18.1' source-build='2022.3.0 (20223.22.1005.1835)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Form Responses 1 (InsuraSelect Feedback (Responses))' inline='true' name='federated.1t67koc0b5iej41e1yjy00ngl3go' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='InsuraSelect Feedback (Responses)' name='cloudfile:googledrive-excel-direct.177st591and3sw17ieg7x09cb0ba'>
+            <connection class='cloudfile:googledrive-excel-direct' cleaning='no' cloudFileExtension='xlsx' cloudFileId='1HX2TVB85vU-NDXXQWXyWz4nPAQ04aqzjw2sHtbz8urg' cloudFileMetadata_-_folder='root' cloudFileName='InsuraSelect Feedback (Responses).xlsx' cloudFileProvider='googledrive' cloudFileRequestURL='https://www.googleapis.com/drive/v3/files/1HX2TVB85vU-NDXXQWXyWz4nPAQ04aqzjw2sHtbz8urg/export?mimeType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' compat='no' dataRefreshTime='' filename='InsuraSelect Feedback (Responses).xlsx' interpretationMode='0' server='' server-oauth='' username='hariprabu@thesmartbridge.com' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='cloudfile:googledrive-excel-direct.177st591and3sw17ieg7x09cb0ba' name='Form Responses 1' table='[&apos;Form Responses 1$&apos;]' type='table'>
+          <columns gridOrigin='A1:I33:no:A1:I33:0' header='yes' outcome='2'>
+            <column datatype='integer' name='S.no' ordinal='0' />
+            <column datatype='datetime' name='Timestamp' ordinal='1' />
+            <column datatype='integer' name='Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?' ordinal='2' />
+            <column datatype='string' name='Did the chatbot effectively address your insurance-related questions and concerns?' ordinal='3' />
+            <column datatype='integer' name='How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?' ordinal='4' />
+            <column datatype='string' name='Did you encounter any difficulties while using the chatbot or the price prediction feature?' ordinal='5' />
+            <column datatype='string' name='What aspects of the application do you think stand out positively, and which areas do you believe need improvement?' ordinal='6' />
+            <column datatype='integer' name='On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins' ordinal='7' />
+            <column datatype='string' name='Email Address' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='cloudfile:googledrive-excel-direct.177st591and3sw17ieg7x09cb0ba' name='Form Responses 1' table='[&apos;Form Responses 1$&apos;]' type='table'>
+          <columns gridOrigin='A1:I33:no:A1:I33:0' header='yes' outcome='2'>
+            <column datatype='integer' name='S.no' ordinal='0' />
+            <column datatype='datetime' name='Timestamp' ordinal='1' />
+            <column datatype='integer' name='Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?' ordinal='2' />
+            <column datatype='string' name='Did the chatbot effectively address your insurance-related questions and concerns?' ordinal='3' />
+            <column datatype='integer' name='How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?' ordinal='4' />
+            <column datatype='string' name='Did you encounter any difficulties while using the chatbot or the price prediction feature?' ordinal='5' />
+            <column datatype='string' name='What aspects of the application do you think stand out positively, and which areas do you believe need improvement?' ordinal='6' />
+            <column datatype='integer' name='On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins' ordinal='7' />
+            <column datatype='string' name='Email Address' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:I33:no:A1:I33:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S.no</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[S.no]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>S.no</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Form Responses 1_C362D14FEAD1472989F7C485F4BF1EEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Timestamp</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Timestamp]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Timestamp</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Form Responses 1_C362D14FEAD1472989F7C485F4BF1EEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Form Responses 1_C362D14FEAD1472989F7C485F4BF1EEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Did the chatbot effectively address your insurance-related questions and concerns?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Did the chatbot effectively address your insurance-related questions and concerns?]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Did the chatbot effectively address your insurance-related questions and concerns?</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Form Responses 1_C362D14FEAD1472989F7C485F4BF1EEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Form Responses 1_C362D14FEAD1472989F7C485F4BF1EEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Did you encounter any difficulties while using the chatbot or the price prediction feature?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Did you encounter any difficulties while using the chatbot or the price prediction feature?]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Did you encounter any difficulties while using the chatbot or the price prediction feature?</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Form Responses 1_C362D14FEAD1472989F7C485F4BF1EEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What aspects of the application do you think stand out positively, and which areas do you believe need improvement?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[What aspects of the application do you think stand out positively, and which areas do you believe need improvement?]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>What aspects of the application do you think stand out positively, and which areas do you believe need improvement?</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Form Responses 1_C362D14FEAD1472989F7C485F4BF1EEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Form Responses 1_C362D14FEAD1472989F7C485F4BF1EEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Email Address</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Email Address]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Email Address</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Form Responses 1_C362D14FEAD1472989F7C485F4BF1EEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Chatbot service (Satisfied or not)' datatype='string' name='[Did the chatbot effectively address your insurance-related questions and concerns?]' role='dimension' type='nominal' />
+      <column caption='Interface ratings' datatype='integer' name='[Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?]' role='measure' type='quantitative' />
+      <column caption='Services issues' datatype='string' name='[Did you encounter any difficulties while using the chatbot or the price prediction feature?]' role='dimension' type='nominal' />
+      <column caption='Value of ML model' datatype='integer' name='[How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?]' role='measure' type='quantitative' />
+      <column caption='Overall ratings' datatype='integer' name='[On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Overall ratings (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='-1' formula='[On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins]' peg='0' size='0.998' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Form Responses 1' datatype='table' name='[__tableau_internal_object_id__].[Form Responses 1_C362D14FEAD1472989F7C485F4BF1EEF]' role='measure' type='quantitative' />
+      <column-instance column='[Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?]' derivation='Avg' name='[avg:Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?]' derivation='Avg' name='[avg:How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Did the chatbot effectively address your insurance-related questions and concerns?]' derivation='None' name='[none:Did the chatbot effectively address your insurance-related questions and concerns?:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Did you encounter any difficulties while using the chatbot or the price prediction feature?]' derivation='None' name='[none:Did you encounter any difficulties while using the chatbot or the price prediction feature?:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Overall ratings (bin)]' derivation='None' name='[none:Overall ratings (bin):ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?]' derivation='Sum' name='[sum:Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Overall ratings (bin):ok]' palette='traffic_light_10_0' type='palette'>
+            <map to='#309143'>
+              <bucket>7</bucket>
+            </map>
+            <map to='#51b364'>
+              <bucket>10</bucket>
+            </map>
+            <map to='#b60a1c'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#e03531'>
+              <bucket>8</bucket>
+            </map>
+            <map to='#e39802'>
+              <bucket>6</bucket>
+            </map>
+            <map to='#f0bd27'>
+              <bucket>9</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Did the chatbot effectively address your insurance-related questions and concerns?:nk]' palette='green_gold_10_0' type='palette'>
+            <map to='#a3bd5a'>
+              <bucket>&quot;Yes&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>&quot;No&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1t67koc0b5iej41e1yjy00ngl3go].[sum:Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Did you encounter any difficulties while using the chatbot or the price prediction feature?:nk]' palette='traffic_light_10_0' type='palette'>
+            <map to='#8ace7e'>
+              <bucket>&quot;yes&quot;</bucket>
+            </map>
+            <map to='#f0bd27'>
+              <bucket>&quot;No&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Form Responses 1' id='Form Responses 1_C362D14FEAD1472989F7C485F4BF1EEF'>
+            <properties context=''>
+              <relation connection='cloudfile:googledrive-excel-direct.177st591and3sw17ieg7x09cb0ba' name='Form Responses 1' table='[&apos;Form Responses 1$&apos;]' type='table'>
+                <columns gridOrigin='A1:I33:no:A1:I33:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='S.no' ordinal='0' />
+                  <column datatype='datetime' name='Timestamp' ordinal='1' />
+                  <column datatype='integer' name='Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?' ordinal='2' />
+                  <column datatype='string' name='Did the chatbot effectively address your insurance-related questions and concerns?' ordinal='3' />
+                  <column datatype='integer' name='How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?' ordinal='4' />
+                  <column datatype='string' name='Did you encounter any difficulties while using the chatbot or the price prediction feature?' ordinal='5' />
+                  <column datatype='string' name='What aspects of the application do you think stand out positively, and which areas do you believe need improvement?' ordinal='6' />
+                  <column datatype='integer' name='On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins' ordinal='7' />
+                  <column datatype='string' name='Email Address' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Form Responses 1 (InsuraSelect Feedback (Responses))' name='federated.1t67koc0b5iej41e1yjy00ngl3go' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t67koc0b5iej41e1yjy00ngl3go'>
+            <column caption='Overall ratings' datatype='integer' name='[On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Overall ratings (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='-1' formula='[On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins]' peg='0' size='0.998' />
+            </column>
+            <column-instance column='[On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins]' derivation='Count' name='[cnt:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Overall ratings (bin)]' derivation='None' name='[none:Overall ratings (bin):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Overall ratings (bin)]' derivation='None' name='[none:Overall ratings (bin):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Overall ratings (bin):ok]' direction='DESC' using='[federated.1t67koc0b5iej41e1yjy00ngl3go].[cnt:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Overall ratings (bin):qk]' palette='green_gold_10_0' symmetric='false' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Overall ratings (bin):qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1t67koc0b5iej41e1yjy00ngl3go].[cnt:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]</rows>
+        <cols>[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Overall ratings (bin):ok]</cols>
+      </table>
+      <simple-id uuid='{6457F742-CC82-410E-8BB0-DABB73E20777}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Form Responses 1 (InsuraSelect Feedback (Responses))' name='federated.1t67koc0b5iej41e1yjy00ngl3go' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t67koc0b5iej41e1yjy00ngl3go'>
+            <column caption='AVG(0)' datatype='real' name='[Calculation_1122522207813296129]' role='measure' type='quantitative' user:unnamed='Sheet 2'>
+              <calculation class='tableau' formula='AVG(0)' />
+            </column>
+            <column caption='Chatbot service (Satisfied or not)' datatype='string' name='[Did the chatbot effectively address your insurance-related questions and concerns?]' role='dimension' type='nominal' />
+            <column caption='Overall ratings' datatype='integer' name='[On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins]' role='measure' type='quantitative' />
+            <column-instance column='[On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins]' derivation='Avg' name='[avg:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Did the chatbot effectively address your insurance-related questions and concerns?]' derivation='None' name='[none:Did the chatbot effectively address your insurance-related questions and concerns?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins]' derivation='Sum' name='[sum:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1122522207813296129]' derivation='User' name='[usr:Calculation_1122522207813296129:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207813296129:qk]' field-type='quantitative' fold='true' max='0.0' min='0.0' range-type='fixed' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207813296129:qk]' scope='rows' value='false' />
+            <format attr='display' class='1' field='[federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207813296129:qk]' scope='rows' value='false' />
+            <encoding attr='space' class='0' field='[federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207813296129:qk]' field-type='quantitative' max='0.0' min='0.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <dropline drop-when='selected' haslabel='false' x-axis='false' y-axis='true' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Chatbot service (Satisfied or not):	</run>
+                <run bold='true'><![CDATA[<[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Did the chatbot effectively address your insurance-related questions and concerns?:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Avg. Overall ratings:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207813296129:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Did the chatbot effectively address your insurance-related questions and concerns?:nk]' />
+              <wedge-size column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[sum:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]' />
+              <size column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]' />
+              <text column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Did the chatbot effectively address your insurance-related questions and concerns?:nk]' />
+            </encodings>
+            <dropline drop-when='selected' haslabel='false' x-axis='false' y-axis='true' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Chatbot service (Satisfied or not):	</run>
+                <run bold='true'><![CDATA[<[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Did the chatbot effectively address your insurance-related questions and concerns?:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Avg. Overall ratings:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='3.0386741161346436' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207813296129:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Chatbot service (Satisfied or not):	</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Avg. Overall ratings:&#9;</run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='2' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207813296129:qk] + [federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207813296129:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{845CB122-FBF4-4D86-9673-541C4491389C}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Form Responses 1 (InsuraSelect Feedback (Responses))' name='federated.1t67koc0b5iej41e1yjy00ngl3go' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t67koc0b5iej41e1yjy00ngl3go'>
+            <column caption='Chatbot service (Satisfied or not)' datatype='string' name='[Did the chatbot effectively address your insurance-related questions and concerns?]' role='dimension' type='nominal' />
+            <column caption='Interface ratings' datatype='integer' name='[Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?]' role='measure' type='quantitative' />
+            <column caption='Value of ML model' datatype='integer' name='[How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?]' role='measure' type='quantitative' />
+            <column-instance column='[Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?]' derivation='Avg' name='[avg:Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?]' derivation='Avg' name='[avg:How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Did the chatbot effectively address your insurance-related questions and concerns?]' derivation='None' name='[none:Did the chatbot effectively address your insurance-related questions and concerns?:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.46077346801757812' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:How valuable did you find the insurance price prediction feature in helping you estimate potential insurance costs?:qk] + [federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:Did the design and layout of the application enhance your interaction with the chatbot and price prediction tools?:qk])</rows>
+        <cols>[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Did the chatbot effectively address your insurance-related questions and concerns?:nk]</cols>
+      </table>
+      <simple-id uuid='{0E652F04-73F1-491A-94BC-B013D9F10785}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Form Responses 1 (InsuraSelect Feedback (Responses))' name='federated.1t67koc0b5iej41e1yjy00ngl3go' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t67koc0b5iej41e1yjy00ngl3go'>
+            <column caption='AVG(0)' datatype='real' name='[Calculation_1122522207821844483]' role='measure' type='quantitative' user:unnamed='Sheet 4'>
+              <calculation class='tableau' formula='AVG(0)' />
+            </column>
+            <column caption='Services issues' datatype='string' name='[Did you encounter any difficulties while using the chatbot or the price prediction feature?]' role='dimension' type='nominal' />
+            <column caption='Overall ratings' datatype='integer' name='[On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins]' role='measure' type='quantitative' />
+            <column-instance column='[On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins]' derivation='Avg' name='[avg:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Did you encounter any difficulties while using the chatbot or the price prediction feature?]' derivation='None' name='[none:Did you encounter any difficulties while using the chatbot or the price prediction feature?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1122522207821844483]' derivation='User' name='[usr:Calculation_1122522207821844483:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207821844483:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='has-stroke' value='true' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207821844483:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Did you encounter any difficulties while using the chatbot or the price prediction feature?:nk]' />
+              <wedge-size column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]' />
+              <size column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]' />
+              <text column='[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Did you encounter any difficulties while using the chatbot or the price prediction feature?:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='3.6132595539093018' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='has-stroke' value='true' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207821844483:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2.3756906986236572' />
+                <format attr='mark-color' value='#ffffff' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='has-stroke' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207821844483:qk] + [federated.1t67koc0b5iej41e1yjy00ngl3go].[usr:Calculation_1122522207821844483:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{478B3275-2667-4CF3-9F47-676E43E9F722}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Overall ratings (bin):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Email Address:nk]</field>
+            <field>[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Overall ratings (bin):ok]</field>
+            <field>[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Overall ratings (bin):qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{0D30DC01-42DA-493E-9D39-C03AE9065975}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Did the chatbot effectively address your insurance-related questions and concerns?:nk]' type='color' />
+            <card pane-specification-id='1' param='[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Did the chatbot effectively address your insurance-related questions and concerns?:nk]</field>
+            <field>[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Overall ratings (bin):qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2F45FF12-08D9-4108-8220-B4A35120DB76}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1t67koc0b5iej41e1yjy00ngl3go].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Did the chatbot effectively address your insurance-related questions and concerns?:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{FA689683-7B36-4732-8D5C-5F6F9D40145A}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Did you encounter any difficulties while using the chatbot or the price prediction feature?:nk]' type='color' />
+            <card pane-specification-id='1' param='[federated.1t67koc0b5iej41e1yjy00ngl3go].[avg:On a scale of 1 to 10, how satisfied are you with the InsuraSelect application as a whole, considering both the chatbot and ins:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Did you encounter any difficulties while using the chatbot or the price prediction feature?:nk]</field>
+            <field>[federated.1t67koc0b5iej41e1yjy00ngl3go].[none:Overall ratings (bin):qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{41CEEDCB-6709-41C5-B73C-B7013E27605A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      iLm+/h9TPMdnqR88bQAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+      SGr/D8BOKRWRIQMKAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      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
+      SUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 4' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
